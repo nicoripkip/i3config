@@ -180,6 +180,7 @@ mode "resize" {
         bindsym Escape mode "default"
         bindsym $mod+r mode "default"
 }
+bindsym $mod+z mode "resize"
 
 
 # Applications section
@@ -216,4 +217,6 @@ default_border none
 client.focused #4b6f45 #43633E #ffffff #1e2c1b #4b6f45
 for_window [class=".*"] border pixel 2 #abb33e
 
-gaps inner 10
+# set gaps values
+gaps inner 15
+gaps outer 5
